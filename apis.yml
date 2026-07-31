@@ -1,8 +1,23 @@
 aid: neotract
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neotract.png
 name: NeoTract
-description: 'NeoTract is a company surfaced as a portfolio company of nea and added to the API Evangelist
-  network as a stub for enrichment. Sector: medical-devices. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'NeoTract was a privately-held medical device company founded in 2004 that developed and
+  commercialized the FDA-cleared UroLift System, a minimally invasive transurethral treatment for lower
+  urinary tract symptoms caused by benign prostatic hyperplasia (BPH). Teleflex Incorporated acquired
+  NeoTract for up to $1.1 billion in October 2017; the UroLift product line now lives under Teleflex at
+  urolift.com. Surfaced as a portfolio company of NEA. This is a physical medical-device business with no
+  public developer, API, or SDK surface; the neotract.com domain no longer resolves.'
 url: https://raw.githubusercontent.com/api-evangelist/neotract/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Medical Devices
+- Health
+- MedTech
+- Medical
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +41,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/neotract-domain-security.yml
 - type: Website
   url: https://www.neotract.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
